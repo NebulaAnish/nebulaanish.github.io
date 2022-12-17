@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+</style > :root {
+  --col-1: #000000;
+  --col2: #150050;
+  --col3: #3f0071;
+  --col4: #fb2576;
+  --col5: #841818;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Inter", serif;
+  font-weight: bold;
+  background-color: #000000;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 0px 80px 10px 80px;
+  background-color: #000000;
+  border-width: 200px;
+}
+.nav .container li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  color: white;
+}
+.nav li ul {
+  margin: 15px 20px 0 20px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.nav li ul:hover {
+  color: #e0bb20;
+}
+.logo {
+  width: 200px;
+  margin: 20px 0 10px 0;
+}
+span {
+  color: #8f8d8d;
+}
+
+.hr-nav-bottom {
+  background-color: #7d7c7c;
+  height: 0.15px;
+  border-bottom: none;
+  width: 95%;
+  margin: 0 auto 0 auto;
+}
+.main-container {
+  position: relative;
+  padding: 30px 80px 20px 130px;
+}
+
+.hero-container h3 {
+  margin-top: 100px;
+  font-size: 2rem;
+}
+.hero-container h1 {
+  color: #e0bb20;
+  transition: ease 3s;
+
+  font-size: 6rem;
+  margin-top: 15px;
+  letter-spacing: 4px;
+}
+.bio {
+  color: white;
+  font-size: 2rem;
+  margin: 10px 10px 0 10px;
+  line-height: 1.5;
+}
+p.bio-points {
+  color: white;
+  font-size: 1.2rem;
+  margin: 20px 10px 0 10px;
+  line-height: 1.5;
+  color: gray;
+}
+
+.button-container {
+  margin: 70px 20px 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.socials {
+  position: relative;
+  border-radius: 10px;
+  background-color: rgb(43, 42, 42);
+  color: white;
+  font-size: 1.2rem;
+  margin: 10px 15px;
+  padding: 15px 6px 0px 6px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+.socials:hover {
+  background-color: #000000;
+}
+.title-describe i {
+  font-size: large;
+  padding: 4px;
+}
+.title-describe {
+  margin: 100px 0 0 0;
+}
+i {
+  margin: 0 10px;
+  color: white;
+}
+.title-describe i {
+  font-size: 2rem;
+  color: #e0bb20;
+}
+.bio i {
+  color: #e0bb20;
+  font-size: 1rem;
+}
+.bio {
+  margin: 20px 0 0 0px;
+
+  font-size: 1.5rem;
+}
+.about-me.content {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-me h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.about-me.content img {
+  top: -100px;
+  right: 20%;
+  border-radius: 50%;
+  height: 400px;
+  margin-top: 20px;
+}
+.about-me p {
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: 100;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  width: 600px;
+}
+
+@media (max-width: 900px) {
+}
