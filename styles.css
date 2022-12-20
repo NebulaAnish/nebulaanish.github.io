@@ -96,6 +96,14 @@ p.bio-points {
   display: flex;
   flex-wrap: wrap;
 }
+i {
+  margin: 0 10px;
+  /* color: white; */
+}
+
+.fa-sharp {
+  color: white;
+}
 .socials {
   position: relative;
   border-radius: 10px;
@@ -109,7 +117,8 @@ p.bio-points {
   text-align: center;
 }
 .socials:hover {
-  background-color: #000000;
+  color: rgb(43, 42, 42);
+  background-color: white;
 }
 .title-describe i {
   font-size: large;
@@ -117,10 +126,6 @@ p.bio-points {
 }
 .title-describe {
   margin: 100px 0 0 0;
-}
-i {
-  margin: 0 10px;
-  color: white;
 }
 .title-describe i {
   font-size: 2rem;
@@ -137,7 +142,7 @@ i {
 }
 .about-me.content {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   position: relative;
   align-items: center;
   justify-content: space-around;
@@ -153,6 +158,7 @@ i {
   border-radius: 50%;
   height: 400px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .about-me p {
   font-size: 1.2rem;
@@ -163,5 +169,48 @@ i {
   width: 600px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  nav {
+    padding: 10px;
+    margin: 10px;
+  }
+  .main-container {
+    padding: 10px;
+    margin: 25px;
+  }
+  .hero-container h1 {
+    font-size: 2.8rem;
+  }
+  .hero-container h3 {
+    font-size: 1rem;
+  }
+  .hero-container p {
+    font-size: 1rem;
+  }
+  .bio,
+  p.bio-points {
+    font-size: 1rem;
+  }
+
+  ul {
+    display: none;
+  }
+  .socials {
+    height: 20px;
+    width: 75px;
+    font-size: 0.65rem;
+    padding: 6px 10px 0 0;
+  }
+
+  .about-me.content img {
+    height: 180px;
+  }
+
+  .about-me p {
+    font-size: 10px;
+  }
 }
