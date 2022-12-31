@@ -234,10 +234,11 @@ i {
     position: absolute;
     z-index: 4;
     background-color: #ffffff;
+    top: -200px;
     right: -200px;
-    height: 3000px;
-    width: 320px;
-    transform: translateX(-200px);
+    height: 300px;
+    width: 1200px;
+    transform: translateY(200px);
     transition: transform ease-in 0.5s;
   }
 
