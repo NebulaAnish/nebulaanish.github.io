@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
-</style > :root {
+:root {
   --col-1: #000000;
   --col2: #150050;
   --col3: #3f0071;
@@ -48,6 +48,10 @@ a {
 .logo {
   width: 200px;
   margin: 20px 0 10px 0;
+}
+.open,
+.close {
+  display: none;
 }
 span {
   color: #8f8d8d;
@@ -178,6 +182,7 @@ i {
     padding: 10px;
     margin: 10px;
   }
+
   .main-container {
     padding: 10px;
     margin: 25px;
@@ -212,5 +217,37 @@ i {
 
   .about-me p {
     font-size: 10px;
+  }
+  .logo {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    position: absolute;
+    left: 40px;
+  }
+
+  .close.active {
+    display: inline-block;
+    z-index: 6;
+  }
+  .menu.active {
+    position: absolute;
+    z-index: 4;
+    background-color: #ffffff;
+    right: -200px;
+    height: 1200px;
+    width: 320px;
+    transform: translateX(-200px);
+    transition: transform ease-in 0.5s;
+  }
+
+  .fa-bars,
+  .close.active {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+  }
+  .fa-times {
+    color: #000000;
   }
 }
