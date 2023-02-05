@@ -204,6 +204,11 @@ i {
   ul {
     display: none;
   }
+  .menu-list {
+    display: inline-block;
+    color: #000000;
+  }
+
   .socials {
     height: 20px;
     width: 75px;
